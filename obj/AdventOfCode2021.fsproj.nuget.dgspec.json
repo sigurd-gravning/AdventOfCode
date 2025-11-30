@@ -1,30 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AdventOfCode2021\\AdventOfCode2021.fsproj": {}
+    "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj": {}
   },
   "projects": {
-    "C:\\AdventOfCode2021\\AdventOfCode2021.fsproj": {
+    "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AdventOfCode2021\\AdventOfCode2021.fsproj",
+        "projectUniqueName": "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj",
         "projectName": "AdventOfCode2021",
-        "projectPath": "C:\\AdventOfCode2021\\AdventOfCode2021.fsproj",
-        "packagesPath": "C:\\Users\\sigurd\\.nuget\\packages\\",
-        "outputPath": "C:\\AdventOfCode2021\\obj\\",
+        "projectPath": "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj",
+        "packagesPath": "C:\\Users\\sigge\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\AdventOfCode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sigurd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sigge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\8.0.319\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,7 +37,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[8.0.301, )",
               "generatePathProperty": true
             }
           },
@@ -51,16 +47,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319\\RuntimeIdentifierGraph.json"
         }
       }
     }

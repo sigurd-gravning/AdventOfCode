@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "vNGT7ODV+Q86mzkyC0EpkNIElNprkS8FsiDEznM5YcGNhQdXYQ733+I28YH7jpBlHxKDoagmV5ahaiZABs2y2A==",
+  "dgSpecHash": "LIMa4RuxZoNimSX/2f2ay1LoRDFd3fk4EBMwp0c6kOTKo5Ioq320zpaFbqlHC4uQ/frVfhS2r41pxAZOUIGZvg==",
   "success": true,
-  "projectFilePath": "C:\\AdventOfCode2021\\AdventOfCode2021.fsproj",
+  "projectFilePath": "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sigurd\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+    "C:\\Users\\sigge\\.nuget\\packages\\fsharp.core\\8.0.301\\fsharp.core.8.0.301.nupkg.sha512",
+    "C:\\Users\\sigge\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\sigge\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\sigge\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\sigge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }
