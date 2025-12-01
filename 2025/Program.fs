@@ -1,2 +1,3 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+open day1
+let result = secretEntrance
+printfn $"%A{result}"
