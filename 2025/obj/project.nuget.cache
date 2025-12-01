@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6wnsmDlyMDZeWzKJrvskYindjYfzNw0AewIATvAGfbVEURaE2GkUDaWE020mK00XCJ+XGRvhUfTMnP6zv814Ww==",
+  "dgSpecHash": "n3FtcnaeHCo=",
   "success": true,
   "projectFilePath": "C:\\code\\AdventOfCode\\2025\\2025.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sigge\\.nuget\\packages\\fsharp.core\\8.0.301\\fsharp.core.8.0.301.nupkg.sha512"
+    "C:\\Users\\SigurdGravning\\.nuget\\packages\\fsharp.core\\9.0.303\\fsharp.core.9.0.303.nupkg.sha512"
   ],
   "logs": []
 }

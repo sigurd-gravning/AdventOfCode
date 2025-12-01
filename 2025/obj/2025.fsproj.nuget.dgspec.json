@@ -10,17 +10,17 @@
         "projectUniqueName": "C:\\code\\AdventOfCode\\2025\\2025.fsproj",
         "projectName": "2025",
         "projectPath": "C:\\code\\AdventOfCode\\2025\\2025.fsproj",
-        "packagesPath": "C:\\Users\\sigge\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SigurdGravning\\.nuget\\packages\\",
         "outputPath": "C:\\code\\AdventOfCode\\2025\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sigge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SigurdGravning\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\8.0.319\\FSharp\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\9.0.307\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -28,7 +28,13 @@
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -37,7 +43,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[8.0.301, )",
+              "version": "[9.0.303, )",
               "generatePathProperty": true
             }
           },
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

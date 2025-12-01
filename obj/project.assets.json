@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "FSharp.Core/8.0.301": {
+      "FSharp.Core/9.0.303": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/FSharp.Core.dll": {
@@ -59,15 +59,15 @@
     }
   },
   "libraries": {
-    "FSharp.Core/8.0.301": {
-      "sha512": "I94+2zfAhWMJwPzVDFSlsutZvjPkaRvLVipf8b2O4AyzxKUBmevDkUBzcJBqSQNB1Ikig8xdphswoeKrObqx7Q==",
+    "FSharp.Core/9.0.303": {
+      "sha512": "6JlV8aD8qQvcmfoe/PMOxCHXc0uX4lR23u0fAyQtnVQxYULLoTZgwgZHSnRcuUHOvS3wULFWcwdnP1iwslH60g==",
       "type": "package",
-      "path": "fsharp.core/8.0.301",
+      "path": "fsharp.core/9.0.303",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "fsharp.core.8.0.301.nupkg.sha512",
+        "fsharp.core.9.0.303.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/netstandard2.0/FSharp.Core.dll",
         "lib/netstandard2.0/FSharp.Core.xml",
@@ -104,11 +104,11 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FSharp.Core >= 8.0.301"
+      "FSharp.Core >= 9.0.303"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sigge\\.nuget\\packages\\": {}
+    "C:\\Users\\SigurdGravning\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -116,17 +116,17 @@
       "projectUniqueName": "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj",
       "projectName": "AdventOfCode2021",
       "projectPath": "C:\\code\\AdventOfCode\\AdventOfCode2021.fsproj",
-      "packagesPath": "C:\\Users\\sigge\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\SigurdGravning\\.nuget\\packages\\",
       "outputPath": "C:\\code\\AdventOfCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sigge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\SigurdGravning\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\8.0.319\\FSharp\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\9.0.307\\FSharp\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -134,7 +134,13 @@
           "targetAlias": "net5.0",
           "projectReferences": {}
         }
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net5.0": {
@@ -143,7 +149,7 @@
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[8.0.301, )",
+            "version": "[9.0.303, )",
             "generatePathProperty": true
           }
         },
@@ -181,7 +187,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.319\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }
