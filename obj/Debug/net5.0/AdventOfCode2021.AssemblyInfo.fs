@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("AdventOfCode2021")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc15f7b925c7bf62f41e63eefcfc8e1f26f043d9")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d49ee875afed478cf29e7cbaa7ae4d70ef5ca997")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("AdventOfCode2021")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("AdventOfCode2021")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
