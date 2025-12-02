@@ -31,10 +31,10 @@ let secretEntrance =
                 else loop tail rotation count
         loop rotations startPosition 0
     
-    secretPassword 10050 rotations
+    secretPassword 100050 rotations
     
 let newPasswordMethod =
-    let path = Path.Combine(__SOURCE_DIRECTORY__, "..", "Data", "input-test.txt")
+    let path = Path.Combine(__SOURCE_DIRECTORY__, "..", "Data", "input-day1.txt")
     let lines = File.ReadAllLines(path)
 
     let rotations = lines |> Seq.toList
@@ -51,7 +51,7 @@ let newPasswordMethod =
         pos % 100 = 0
 
     let countCrossings oldPos newPos =
-        abs(newPos / 100 - oldPos / 100)
+        abs((newPos / 100) - (oldPos / 100))
 
     let secretPassword (startPosition: int) rotations =
         let rec loop rotations position count =
@@ -60,7 +60,10 @@ let newPasswordMethod =
             | head :: tail ->
                 let newPosition = parseRotation position head
                 let crossings = countCrossings position newPosition
-                loop tail newPosition (count + crossings)
-        loop rotations startPosition 0
+                if checkCorrectPos position && head[0] = 'L' && checkCorrectPos newPosition then loop tail newPosition (count + crossings)
+                else if checkCorrectPos position && head[0] = 'L' then loop tail newPosition (count + crossings - 1) 
+                else if head[0] = 'L' && checkCorrectPos newPosition then loop tail newPosition (count + crossings + 1) 
+                else loop tail newPosition (count + crossings)
+        loop rotations startPosition 0 
 
-    secretPassword 1000 rotations
+    secretPassword 100050 rotations
